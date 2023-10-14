@@ -13,7 +13,7 @@ A shopping cart that allows you
 
 ### Links
 
-- Live Site URL: [Vercel](https://news-homepage-ashen.vercel.app/)
+- Live Site URL: [Vercel](https://shopping-cart-dun-three.vercel.app/)
 
 ### Built with
 
