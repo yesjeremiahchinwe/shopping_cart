@@ -1,0 +1,167 @@
+.empty_cart {
+  margin: -6rem auto 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+
+  small {
+    font-size: 6rem;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  span {
+    font-size: 1.25rem;
+    margin: 0 auto;
+    display: block;
+    padding: 0.25rem 1.5rem;
+    text-align: center;
+  }
+
+  a {
+    display: block;
+    text-align: center;
+    margin: 2rem auto;
+    font-size: 1.25rem;
+    background-color: whitesmoke;
+    color: black;
+    font-weight: 700;
+    padding: 0.5rem 3rem;
+    border-radius: 30px;
+    border: 2px solid white;
+    transition: all 0.3s ease;
+
+    &:hover {
+      background-color: transparent;
+      color: whitesmoke;
+    }
+  }
+}
+
+.cartPage {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 4rem 0;
+  padding: 2rem 0;
+  background-color: white;
+  border-radius: 10px;
+
+  .container {
+    padding: 1.5rem 1.25rem;
+    margin: 0 auto;
+    color: #000508;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    gap: 4rem;
+    flex-direction: column;
+
+    .products {
+      display: flex;
+      flex-direction: column;
+      gap: 3rem;
+      margin: 0 auto;
+    }
+
+    .wrapper {
+      display: flex;
+      align-items: flex-start;
+      justify-content: flex-start;
+      flex-direction: column;
+
+      img {
+        width: 100%;
+        max-width: 300px;
+        border-radius: 10px;
+        transition: transform 0.3s ease-out;
+
+        &:hover {
+          transform: scale(1.05);
+        }
+      }
+    }
+
+    @media screen and (min-width: 1000px) {
+      .products {
+        margin: 0;
+      }
+
+      .wrapper {
+        width: 100%;
+        margin: 1rem auto;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        column-gap: 4rem;
+      }
+    }
+
+    .order_summary {
+      background-color: rgb(250, 249, 249);
+      border-radius: 20px;
+      margin: 0 auto;
+      width: 100%;
+      max-width: 500px;
+
+      h3 {
+        padding: 1.5rem;
+        border-bottom: 1px solid lightgrey;
+      }
+
+      div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1.5rem;
+      }
+
+      button {
+        width: 80%;
+        display: block;
+        margin: 1rem auto;
+        background-color: black;
+        color: whitesmoke;
+        border-radius: 20px;
+        transition: transform 0.3s ease-in-out;
+
+        &:hover {
+          transform: scale(1.05);
+        }
+
+        &:last-of-type {
+          border: 1px solid black;
+          background-color: whitesmoke;
+        }
+
+        a {
+          color: black;
+          font-weight: 700;
+        }
+      }
+    }
+  }
+
+  @media screen and (min-width: 1000px) {
+    .container {
+      width: 90%;
+      flex-direction: row;
+      justify-content: space-between;
+      
+      .order_summary {
+        position: sticky;
+        top: 7rem;
+        right: 0;
+        width: 400px;
+        margin-top: 1rem;
+        margin-right: -1rem;
+        z-index: 1;
+      }
+    }
+  }
+}

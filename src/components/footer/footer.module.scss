@@ -1,0 +1,17 @@
+footer {
+    padding: 2rem 1rem;
+    
+    .container {
+        display: flex;
+        justify-content: space-between;
+        gap: 2rem;
+        align-items: center; 
+    }
+
+    @media screen and (min-width: 1000px) {
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+    }
+}

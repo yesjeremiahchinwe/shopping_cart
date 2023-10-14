@@ -1,0 +1,16 @@
+.quantifier {
+    display: flex;
+    align-items: center;
+    background-color: whitesmoke;
+    width: fit-content;
+    border-radius: 10px;
+    margin: 1rem 0;
+
+    button {
+      border: none;
+      outline: none;
+      background-color: transparent;
+      font-size: 1.5rem;
+    }
+  }
+  

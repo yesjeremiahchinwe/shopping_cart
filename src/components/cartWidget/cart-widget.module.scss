@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    border: none;
+    background: none;
+    cursor: pointer;
+    align-items: center;
+    color: whitesmoke;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+  
+    &:hover {
+      transform: scale(1.1);
+    }
+
+    .shoppingCart {
+      font-size: 5rem;
+      padding: 1.5rem .4rem;
+      will-change: filter;
+      transition: filter 300ms;
+      margin-right: -0.6rem;
+      color: whitesmoke;
+    }
+    
+    .wrapper {
+      background-color: whitesmoke;
+      padding: 0.25rem 0.5rem;
+      border-radius: 50%;
+      margin-top: -0.75rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      right: -0.35rem;
+    }
+  
+    .productsCount {
+      z-index: 1;
+      font-size: 1em;
+      top: 25px;
+      font-weight: 700;
+      color: #000508;
+    }
+  }
+  
