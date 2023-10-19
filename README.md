@@ -1,6 +1,6 @@
-# Shopping Cart 🛒 with React.js & TypeScript
+# E-Commerce Store 🛒 with React.js & TypeScript
 
-A shopping cart that allows you 
+An ecommerce store that fetches products from an API and allows you to
 
 - store products/items into your cart
 - click the product image to visit the individual product page for more details about the product
@@ -22,6 +22,7 @@ A shopping cart that allows you
 - React Custom Hooks
 - useLocalStorageState Hook - to store the products in the local storage of the browser
 - TypeScript
+- API Integration
 - Mobile-first workflow
 
 ## Author
