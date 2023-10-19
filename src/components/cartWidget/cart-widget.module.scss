@@ -23,20 +23,20 @@
     
     .wrapper {
       background-color: whitesmoke;
-      padding: 0.25rem 0.5rem;
       border-radius: 50%;
-      margin-top: -0.75rem;
-      display: flex;
-      align-items: center;
-      justify-content: center;
+      display: block;
+      text-align: center;
+      width: 30px;
+      height: 30px;
+      line-height: 30px;
+      margin: -0.75rem auto auto;
+      right: -0.5rem;
       position: absolute;
-      right: -0.35rem;
     }
   
     .productsCount {
       z-index: 1;
       font-size: 1em;
-      top: 25px;
       font-weight: 700;
       color: #000508;
     }

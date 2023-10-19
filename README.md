@@ -8,8 +8,7 @@ A shopping cart that allows you
 
 ### Screenshot
 
-![Desktop View](./screenshots/shopping_app.png)
-![Mobile View](./screenshots/shopping_app_mobile.png)
+![Desktop View](./screenshots/recent_shopping.png)
 
 ### Links
 
@@ -20,6 +19,8 @@ A shopping cart that allows you
 - Semantic HTML5 markup
 - SASS
 - React.js
+- React Custom Hooks
+- useLocalStorageState Hook - to store the products in the local storage of the browser
 - TypeScript
 - Mobile-first workflow
 

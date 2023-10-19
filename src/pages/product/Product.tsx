@@ -1,9 +1,9 @@
 import classes from "./product.module.scss"
-import Error from "../error/Error"
-import { LoaderDetails } from "../loader/LoaderDetails"
-import CurrencyFormatter from "../currencyFormatter/CurrencyFormatter"
+import Error from "../../components/error/Error"
+import { LoaderDetails } from "../../components/loader/LoaderDetails"
+import CurrencyFormatter from "../../components/currencyFormatter/CurrencyFormatter"
 import useFetchProduct, { ProductDetail } from "../../hooks/useFetchProduct"
-import { CartProps } from "../products/Products"
+import { CartProps } from "../home/Home"
 import useLocalStorageState from "use-local-storage-state";
 import { useEffect } from "react"
 

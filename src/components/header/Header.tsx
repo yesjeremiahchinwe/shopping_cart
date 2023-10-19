@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import useLocalStorageState from 'use-local-storage-state'
 import classes from './header.module.scss'
-import { CartProps } from '../products/Products'
+import { CartProps } from '../../pages/home/Home'
 import CartWidget from '../cartWidget/CartWidget'
 
 export default function Header(){

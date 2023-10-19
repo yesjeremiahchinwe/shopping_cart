@@ -1,0 +1,59 @@
+.order_summary {
+    background-color: rgb(250, 249, 249);
+    border-radius: 20px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 500px;
+
+    h3 {
+      padding: 1.5rem;
+      border-bottom: 1px solid lightgrey;
+    }
+
+    div {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1.5rem;
+    }
+
+    button {
+      width: 80%;
+      display: block;
+      margin: 1rem auto;
+      background-color: black;
+      color: whitesmoke;
+      border-radius: 20px;
+      transition: transform 0.3s ease-in-out;
+
+      &:hover {
+        transform: scale(1.05);
+      }
+
+      &:last-of-type {
+        border: 1px solid black;
+        background-color: whitesmoke;
+
+        a {
+          color: black;
+        }
+      }
+
+      a {
+        color: white;
+        font-weight: 700;
+      }
+    }
+  }
+
+  @media screen and (min-width: 1000px) {
+    .order_summary {
+        position: sticky;
+        top: 7rem;
+        right: 0;
+        width: 400px;
+        margin-top: 1rem;
+        margin-right: -1rem;
+        z-index: 1;
+      }
+  }

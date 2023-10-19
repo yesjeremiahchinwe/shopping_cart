@@ -1,9 +1,9 @@
 import useLocalStorageState from 'use-local-storage-state'
-import CurrencyFormatter from '../currencyFormatter/CurrencyFormatter'
-import classes from './products.module.scss'
-import Loader from '../loader/Loader'
+import CurrencyFormatter from '../../components/currencyFormatter/CurrencyFormatter'
+import classes from './home.module.scss'
+import Loader from '../../components/loader/Loader'
 import useFetchProducts from '../../hooks/useFetchProducts'
-import Error from '../error/Error'
+import Error from '../../components/error/Error'
 import { Link } from 'react-router-dom'
 
 export type Product = {
